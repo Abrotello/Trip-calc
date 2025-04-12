@@ -43,37 +43,7 @@
             placeholder="Ej: 24.5"
           />
         </label>
-<!--   
-        <label class="block">
-          <span class="font-semibold text-gray-700">Rendimiento (km/l)</span>
-          <input
-            type="number"
-            bind:value={rendimiento}
-            class="mt-1 w-full border border-gray-300 rounded p-2"
-            placeholder="Ej: 10.5"
-          />
-        </label> -->
-  
-        <!-- <label class="block">
-          <span class="font-semibold text-gray-700">Costo por desgaste (por km)</span>
-          <input
-            type="number"
-            bind:value={desgasteKm}
-            class="mt-1 w-full border border-gray-300 rounded p-2"
-            placeholder="Ej: 1.2"
-          />
-        </label> -->
-  
-        <!-- <label class="block">
-          <span class="font-semibold text-gray-700">Margen de ganancia (%)</span>
-          <input
-            type="number"
-            bind:value={margenGanancia}
-            class="mt-1 w-full border border-gray-300 rounded p-2"
-            placeholder="Ej: 20"
-          />
-        </label>
-   -->
+
         <button
           on:click={calcularPrecio}
           class="w-full bg-green-600 hover:bg-green-700 text-white py-2 rounded mt-4"
