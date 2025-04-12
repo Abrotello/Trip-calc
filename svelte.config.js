@@ -1,15 +1,18 @@
 import adapter from '@sveltejs/adapter-static';
+import { sveltekit } from '@sveltejs/kit/vite';
+import { defineConfig } from 'vite';
 
-/** @type {import('@sveltejs/kit').Config} */
-const config = {
+export default defineConfig({
+	plugins: [sveltekit()],
 	kit: {
 		adapter: adapter({
-			fallback: '404.html'
+			// default options are shown. On some platforms
+			// these options are set automatically — see below
+			fallback: '404.html',
+			strict: true
 		}),
 		paths: {
-			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
+			base: process.argv.includes('dev') ? '' : '/Trip-calc'
 		}
 	}
-};
-
-export default config;
+});
