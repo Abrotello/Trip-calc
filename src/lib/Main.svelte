@@ -42,7 +42,7 @@
     aplicaDescuentoTiempo();
 
     const total = (subtotal + ganancia) * descuentoPorKilometro * descuentoPorTiempo;
-    resultado = "Cost total estimado: $" + total.toFixed(2);
+    resultado = `Costo total: $${total.toFixed(2)}`
   };
 </script>
 
