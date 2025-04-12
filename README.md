@@ -1,38 +1,26 @@
-# sv
+# Cotizador de Viajes
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Calculadora personal para estimar el costo de viajes considerando combustible, desgaste del vehículo, y margen de ganancia. Diseñada especialmente para uso móvil y desarrollada con **SvelteKit** y **TailwindCSS**.
 
-## Creating a project
+**URL del proyecto desplegado:** [https://adrianbotello.github.io/Trip-calc](https://adrianbotello.github.io/Trip-calc)
 
-If you're seeing this, you've probably already done this step. Congrats!
+---
 
-```bash
-# create a new project in the current directory
-npx sv create
+## Características
 
-# create a new project in my-app
-npx sv create my-app
-```
+- **Responsive:** Optimizada para celulares (iPhone 12 mini y similares).
+- **Inputs personalizables:** Permite ingresar distancia, consumo, precio de gasolina y margen de ganancia.
+- **Cálculo en tiempo real:** Actualiza automáticamente el precio estimado del viaje.
+- **Estilo limpio y minimalista** usando TailwindCSS.
 
-## Developing
+---
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Tecnologías utilizadas
 
-```bash
-npm run dev
+- [SvelteKit](https://kit.svelte.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
+- [pnpm](https://pnpm.io/)
+- [GitHub Pages](https://pages.github.com/)
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+---
