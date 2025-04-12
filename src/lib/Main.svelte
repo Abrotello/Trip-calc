@@ -2,8 +2,8 @@
     let km: number;
     let precioGasolina: number
     const rendimiento: number = 7.5;
-    const desgasteKm: number = 3;
-    const margenGanancia: number = 40;
+    const desgasteKm: number = 3.1;
+    const margenGanancia: number = 45;
     let resultado: string = '';
   
     const calcularPrecio = () => {
