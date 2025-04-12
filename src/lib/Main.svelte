@@ -5,8 +5,8 @@
 
   const rendimiento: number = 7.5;
   const desgasteKm: number = 3.1;
-  const margenGanancia: number = 40;
-  const tarifaPorMinuto: number = 1.2;
+  const margenGanancia: number = 45;
+  const tarifaPorMinuto: number = 1.4;
   let resultado: string = "";
   let descuentoPorKilometro: number = 1;
   let descuentoPorTiempo: number = 1;
