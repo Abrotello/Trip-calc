@@ -2,7 +2,7 @@
 
 Calculadora personal para estimar el costo de viajes considerando combustible, desgaste del vehículo, y margen de ganancia. Diseñada especialmente para uso móvil y desarrollada con **SvelteKit** y **TailwindCSS**.
 
-**URL del proyecto desplegado:** [https://adrianbotello.github.io/Trip-calc](https://adrianbotello.github.io/Trip-calc)
+**URL del proyecto desplegado:** [https://adrianbotello.github.io/Trip-calc]
 
 ---
 
